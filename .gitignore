@@ -186,7 +186,7 @@ ClientBin/
 orleans.codegen.cs
 
 /node_modules
-/Source/node_modules
+/Source/WbTstr.Testbed/node_modules
 
 # RIA/Silverlight projects
 Generated_Code/
