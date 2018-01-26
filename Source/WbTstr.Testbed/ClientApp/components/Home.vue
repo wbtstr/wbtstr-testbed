@@ -1,9 +1,17 @@
 <template>
   <div>
-    <h1>{{ count }}</h1>
-
-    <button @click="increment">Increment</button>
-    <button @click="decrement">Decrement</button>
+    <section class="hero is-medium is-info">
+      <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              Greetings!
+            </h1>
+            <h2 class="subtitle">
+              This application is used as a testbed for the WbTstr integration test suite.
+            </h2>
+          </div>
+      </div>
+    </section>
   </div>
 </template>
 

@@ -9,13 +9,17 @@ const store = new Vuex.Store({
     },
 
     mutations: {
+        decrement(state) {
+            state.count -= 1;
+        },
+
+        reset(state) {
+            state.count = 0;
+        },
+
         increment(state) {
             state.count += 1;
         },
-
-        decrement(state) {
-            state.count -= 1;
-        }
     },
 });
 
