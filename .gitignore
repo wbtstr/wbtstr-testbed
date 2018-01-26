@@ -187,7 +187,7 @@ orleans.codegen.cs
 
 /node_modules
 /Source/WbTstr.Testbed/node_modules
-/source/WbTstr.Testbed/wwwwroot/
+/Source/WbTstr.Testbed/wwwroot/
 
 # RIA/Silverlight projects
 Generated_Code/
