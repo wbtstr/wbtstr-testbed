@@ -1,13 +1,13 @@
 <template>
   <div>
-    <section class="hero is-medium is-info">
+    <section class="hero is-info">
       <div class="hero-body">
           <div class="container">
             <h1 class="title">
-              Greetings!
+              Home
             </h1>
             <h2 class="subtitle">
-              This application is used as a testbed for the WbTstr integration test suite.
+              This application is used as a testbed by the WbTstr integration test suite.
             </h2>
           </div>
       </div>

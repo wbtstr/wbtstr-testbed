@@ -9,6 +9,7 @@
                     <div class="navbar-dropdown is-boxed">
                         <router-link class="navbar-item" to="/">Home</router-link>
                         <router-link class="navbar-item" to="/counter">Counter</router-link>
+                        <a class="navbar-item" href="/login">Login</a>
                     </div>
                 </div>
             </div>            

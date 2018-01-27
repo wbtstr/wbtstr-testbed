@@ -24,13 +24,13 @@
 
       <div class="level">
         <div class="level-item">
-          <button class="button is-primary"  @click="decrement">Decrement</button>
+          <button class="button is-warning"  @click="decrement">Decrement</button>
         </div>
         <div class="level-item">
-          <button class="button is-primary" @click="reset">Reset</button>
+          <button class="button" @click="reset">Reset</button>
         </div>             
         <div class="level-item">
-          <button class="button is-primary" @click="increment">Increment</button>
+          <button class="button is-success" @click="increment">Increment</button>
         </div>        
       </div>      
     </div>
