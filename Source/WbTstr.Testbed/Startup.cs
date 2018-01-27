@@ -26,18 +26,7 @@ namespace WbTstr.Testbed
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-                app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
-                {
-                    HotModuleReplacement = true
-                });
-            }
-            else
-            {
-                app.UseExceptionHandler("/App/Error");
-            }
+            app.UseDeveloperExceptionPage();
 
             app.UseStaticFiles();
 
