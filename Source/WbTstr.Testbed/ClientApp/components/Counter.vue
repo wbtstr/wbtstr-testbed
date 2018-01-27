@@ -17,7 +17,7 @@
       <div class="level">
         <div class="level-item has-text-centered">
           <div>
-            <p class="title">{{ count }}</p>
+            <p class="title" @click.right="changeColor">{{ count }}</p>
           </div>
         </div>
       </div>
@@ -27,11 +27,11 @@
           <button class="button is-warning"  @click="decrement">Decrement</button>
         </div>
         <div class="level-item">
-          <button class="button" @click="reset">Reset</button>
+          <button class="button" @click="resetInfo" @click.middle="reset">Reset</button>
         </div>             
         <div class="level-item">
           <button class="button is-success" @click="increment">Increment</button>
-        </div>        
+        </div>
       </div>      
     </div>
   </div>
@@ -39,13 +39,7 @@
 
 <script>
   export default {
-    name: 'Home',
-
-    data() {
-      return {
-        msg: 'Hello, world!',
-      };
-    },
+    name: 'Counter',
 
     computed: {
       count() {
@@ -63,6 +57,13 @@
       increment() {
         this.$store.commit('increment');
       },
+      changeColor(event) {
+        event.preventDefault();
+        event.target.classList.toggle('has-text-grey')
+      },
+      resetInfo() {
+        alert('Use middle-click on this button!');
+      }
     },
   };
 </script>

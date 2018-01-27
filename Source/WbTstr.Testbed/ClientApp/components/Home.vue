@@ -18,27 +18,6 @@
 <script>
   export default {
     name: 'Home',
-
-    data() {
-      return {
-        msg: 'Hello, world!',
-      };
-    },
-
-    computed: {
-      count() {
-        return this.$store.state.count;
-      },
-    },
-
-    methods: {
-      increment() {
-        this.$store.commit('increment');
-      },
-      decrement() {
-        this.$store.commit('decrement');
-      }
-    },
   };
 </script>
 
